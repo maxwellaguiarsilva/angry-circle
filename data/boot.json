@@ -1,0 +1,91 @@
+{
+  "canvas": {
+    "width": 800,
+    "height": 600,
+    "background": "#1a1a2e"
+  },
+  "launcher": {
+    "x": 120,
+    "y": 520
+  },
+  "timing": {
+    "timestep": 0.016666666666666666,
+    "max-frame-time": 0.25
+  },
+  "physics": {
+    "gravity": 980,
+    "restitution": 0.6,
+    "density": 0.01,
+    "solver-iterations": 4
+  },
+  "slingshot": {
+    "max-drag": 150,
+    "max-power": 1200,
+    "power-curve": { "type": "power", "exponent": 2 }
+  },
+  "slingshot-visual": {
+    "band-color": "#ffffff",
+    "band-width": 4,
+    "frame-color": "#8d6e63",
+    "frame-width": 8,
+    "frame-base-offset-y": 80,
+    "frame-split-offset-y": 12,
+    "tine-offset-x": 30,
+    "tine-offset-y": 40,
+    "pouch-color": "#6b4f3a",
+    "pouch-radius": 12
+  },
+  "destruction": {
+    "min-impact-damage": 400
+  },
+  "scoring": {
+    "hit": 10,
+    "knockdown": 25,
+    "destroy": 25,
+    "launch-bonus": 50
+  },
+  "hud": {
+    "x": 24,
+    "y": 28,
+    "font": "600 18px monospace",
+    "fill": "#ffffff",
+    "label": "Score"
+  },
+  "game-over": {
+    "won-text": "You cleared the level!",
+    "lost-text": "Out of launches!",
+    "restart-text": "Tap to play again",
+    "font": "700 30px monospace",
+    "fill": "#ffffff",
+    "restart-font": "400 15px monospace",
+    "restart-fill": "#aab6cc",
+    "y": 260,
+    "restart-y-offset": 44
+  },
+  "settle": {
+    "speed": 30,
+    "frames": 12
+  },
+  "clouds": {
+    "fill": "#33405f",
+    "wrap-margin": 160,
+    "puffs": [
+      { "dx": 0, "dy": 0, "rx": 46, "ry": 26 },
+      { "dx": -30, "dy": 8, "rx": 28, "ry": 20 },
+      { "dx": 30, "dy": 8, "rx": 28, "ry": 20 }
+    ],
+    "items": [
+      { "x": 150, "y": 90, "vx": 4 },
+      { "x": 400, "y": 140, "vx": 6 },
+      { "x": 620, "y": 80, "vx": 5 },
+      { "x": 280, "y": 180, "vx": 3 },
+      { "x": 720, "y": 170, "vx": 7 }
+    ]
+  },
+  "audio": {
+    "launch": { "frequency": 520, "duration": 0.15, "type": "sine", "volume": 0.3 },
+    "hit": { "frequency": 220, "duration": 0.2, "type": "triangle", "volume": 0.4 },
+    "win": { "frequency": 660, "duration": 0.4, "type": "sine", "volume": 0.4 },
+    "lose": { "frequency": 110, "duration": 0.5, "type": "sawtooth", "volume": 0.3 }
+  }
+}

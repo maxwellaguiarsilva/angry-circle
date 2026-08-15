@@ -1,0 +1,9 @@
+{
+  "identity": {
+    "launcher": { "color": "#4ecdc4", "radius": 22 },
+    "target": { "color": "#ff6b6b", "radius": 18, "hp": 100 },
+    "wood": { "color": "#a67c52", "w": 60, "h": 30, "hp": 120 },
+    "stone": { "color": "#8e9299", "w": 60, "h": 30, "hp": 300 }
+  },
+  "materials": ["wood", "stone"]
+}

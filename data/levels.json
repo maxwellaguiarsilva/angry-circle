@@ -1,0 +1,30 @@
+{
+  "levels": [
+    {
+      "launches": 3,
+      "targets": [
+        { "x": 640, "y": 560 },
+        { "x": 640, "y": 524 },
+        { "x": 640, "y": 488 },
+        { "x": 500, "y": 585, "shape": "block", "material": "wood" },
+        { "x": 500, "y": 555, "shape": "block", "material": "stone" }
+      ]
+    },
+    {
+      "launches": 5,
+      "targets": [
+        { "x": 560, "y": 560 },
+        { "x": 560, "y": 524 },
+        { "x": 560, "y": 488 },
+        { "x": 560, "y": 452 },
+        { "x": 560, "y": 416 },
+        { "x": 700, "y": 560 },
+        { "x": 700, "y": 524 },
+        { "x": 700, "y": 488 },
+        { "x": 440, "y": 585, "shape": "block", "material": "wood" },
+        { "x": 440, "y": 555, "shape": "block", "material": "stone" },
+        { "x": 440, "y": 525, "shape": "block", "material": "wood" }
+      ]
+    }
+  ]
+}
